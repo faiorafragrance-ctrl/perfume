@@ -512,22 +512,25 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   }
   .nav-list { flex-direction: column; gap: 18px; }
   .hero {
-    min-height: 85vh;
+    min-height: 58vh;
     display: flex;
     align-items: center;
   }
   .hero-bg img {
     transform: none;
     object-fit: cover;
-    object-position: 65% center;
+    object-position: 70% center;
+  }
+  .hero-overlay {
+    background: linear-gradient(90deg, rgba(10,6,3,.92) 0%, rgba(10,6,3,.55) 40%, rgba(10,6,3,.15) 100%);
   }
   .hero .container {
-    padding-left: 20px;
+    padding-left: 18px;
     padding-right: 16px;
   }
   .hero-content {
     position: relative;
-    max-width: 55%;
+    max-width: 52%;
     background: none;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
@@ -537,16 +540,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   }
   .hero-title {
     color: #fff;
-    font-size: clamp(30px, 8vw, 46px);
-    margin-bottom: 14px;
+    font-size: clamp(26px, 7vw, 40px);
+    margin-bottom: 10px;
   }
   .hero-desc {
     color: #d8cfc3;
-    font-size: 13px;
-    margin-bottom: 22px;
+    font-size: 12px;
+    margin-bottom: 18px;
   }
-  .hero-eyebrow { margin-bottom: 10px; font-size: 11px; letter-spacing: 3px; }
-  .btn-gold { padding: 11px 22px; font-size: 13px; }
+  .hero-eyebrow { margin-bottom: 8px; font-size: 10px; letter-spacing: 2.5px; }
+  .btn-gold { padding: 10px 20px; font-size: 12px; }
   .features-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
   .feature { border-right: none; padding: 8px 0; }
   .section-head .line { width: 40px; }
