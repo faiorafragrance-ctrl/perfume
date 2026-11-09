@@ -1,0 +1,103 @@
+
+gmail
+us: faiorafragrance@gmail.com
+ps: shiya@2026
+
+faiorafragrance
+faiorafragrance@gmail.com
+
+recover email
+vijayanand14490@gmail.com
+
+githud opensignup continew with google
+
+create new repository 
+perfume
+
+https://github.com/faiorafragrance-ctrl/perfume
+
+you get https://github.com/faiorafragrance-ctrl/perfume.git
+
+d drive D:\wamp8_4\www\faiorafragrance 
+cmd 
+D:\wamp8_4\www\faiorafragrance>echo "# perfume" >> README.md
+
+
+D:\wamp8_4\www\faiorafragrance>echo "# perfume" >> README.md
+
+D:\wamp8_4\www\faiorafragrance>git init
+Initialized empty Git repository in D:/wamp8_4/www/faiorafragrance/.git/
+
+															D:\wamp8_4\www\faiorafragrance>git add README.md
+															D:\wamp8_4\www\faiorafragrance>git commit -m "first commit"
+																													D:\wamp8_4\www\faiorafragrance>git branch -M main
+															D:\wamp8_4\www\faiorafragrance>git remote add origin https://github.com/faiorafragrance-ctrl/perfume.git
+															D:\wamp8_4\www\faiorafragrance>git push -u origin main
+												
+															D:\wamp8_4\www\faiorafragrance>git add .
+															warning: in the working copy of 'css/style.css', LF will be replaced by CRLF the next time Git touches it
+															warning: in the working copy of 'js/style.js', LF will be replaced by CRLF the next time Git touches it
+
+															D:\wamp8_4\www\faiorafragrance>git add .
+															D:\wamp8_4\www\faiorafragrance>git commit -m "first commit2"
+															[main 0f5b71e] first commit2
+															 13 files changed, 855 insertions(+)
+															 create mode 100644 css/style.css
+															 create mode 100644 img/amber_red.png
+															 create mode 100644 img/deep_blue.png
+															 create mode 100644 img/footer_banner.png
+															 create mode 100644 img/im1.png
+															 create mode 100644 img/im2.PNG
+															 create mode 100644 img/im3.PNG
+															 create mode 100644 img/im4.PNG
+															 create mode 100644 img/logo.png
+															 create mode 100644 img/olive_green.png
+															 create mode 100644 img/wall1.png
+															 create mode 100644 index.html
+															 create mode 100644 js/style.js
+ 
+ 
+ 
+
+
+
+
+GitHub Repository Settings
+Step 3: Repository owner ആയ krishnakumar-cmyk ചെയ്യേണ്ടത്:
+1. GitHub → perfume repository തുറക്കുക.
+Add collaborators to this repository
+Add people
+2. Settings → Collaborators / Manage access തുറക്കുക.
+3. Add people ക്ലിക്ക് ചെയ്യുക.
+4. Vijay-Anand-A എന്ന് search ചെയ്യുക.
+5. Invite ചെയ്യുക.
+
+Vijay-Anand-A
+Step 2: ഈ link തുറക്കുക:
+https://github.com/settings/organizations?utm_source=chatgpt.com
+Check Repository Invitations
+Step 3: ഈ link കൂടി തുറന്ന് നോക്കുക:
+GitHub Organizations
+Accept cheyyuka
+
+								https://vercel.com/ open
+								login with github krishnakumar-cmyk
+
+								githubil file itta shesham 
+														D:\wamp8_4\www\vridhavan_dance>git add .
+														D:\wamp8_4\www\vridhavan_dance>git commit -m "websitedesign"
+														On branch main
+														nothing to commit, working tree clean
+														D:\wamp8_4\www\vridhavan_dance>git push -u origin main
+
+								create New+ project kodukkuga
+								select repository
+								import
+								Deploy 
+								continuew
+
+								if you check go to domain
+
+
+https://vercel.com/krishnakumar-cmyk/dance-fqle
+https://dance-fqle.vercel.app/
