@@ -511,13 +511,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     pointer-events: auto;
   }
   .nav-list { flex-direction: column; gap: 18px; }
+  .hero {
+    min-height: 72vh;
+  }
   .hero-bg {
     background: #0a0603;
   }
   .hero-bg img {
     transform: none;
-    object-fit: contain;
-    object-position: center top;
+    object-fit: cover;
+    object-position: 72% center;
   }
   .hero-content { padding: 40px 24px; }
   .features-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
