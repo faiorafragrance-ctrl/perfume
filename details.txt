@@ -80,8 +80,37 @@ Step 3: ഈ link കൂടി തുറന്ന് നോക്കുക:
 GitHub Organizations
 Accept cheyyuka
 
+
+													D:\wamp8_4\www\faiorafragrance>git add .
+
+													D:\wamp8_4\www\faiorafragrance>git commit -m "first commit"
+													[main 5aa324e] first commit
+													 1 file changed, 103 insertions(+)
+													 create mode 100644 details.txt
+
+													D:\wamp8_4\www\faiorafragrance>git push -u origin main
+													Enumerating objects: 24, done.
+													Counting objects: 100% (24/24), done.
+													Delta compression using up to 8 threads
+													Compressing objects: 100% (20/20), done.
+													Writing objects: 100% (24/24), 15.02 MiB | 5.06 MiB/s, done.
+													Total 24 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+													remote: Resolving deltas: 100% (1/1), done.
+													To https://github.com/faiorafragrance-ctrl/perfume.git
+													 * [new branch]      main -> main
+													branch 'main' set up to track 'origin/main'.
+
+													:\wamp8_4\www\faiorafragrance>
+
 								https://vercel.com/ open
-								login with github krishnakumar-cmyk
+								signup
+								continue with github
+								mob : 9962140490
+								login with github https://github.com/faiorafragrance-ctrl
+								import git 
+								deploy 
+								
+								https://perfume-two-silk.vercel.app/
 
 								githubil file itta shesham 
 														D:\wamp8_4\www\vridhavan_dance>git add .
