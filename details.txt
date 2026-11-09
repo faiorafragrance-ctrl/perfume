@@ -10,7 +10,7 @@ recover email
 vijayanand14490@gmail.com
 
 githud opensignup continew with google
-
+and otp veryfy with 9962140490
 create new repository 
 perfume
 
@@ -20,17 +20,14 @@ you get https://github.com/faiorafragrance-ctrl/perfume.git
 
 d drive D:\wamp8_4\www\faiorafragrance 
 cmd 
-D:\wamp8_4\www\faiorafragrance>echo "# perfume" >> README.md
-
-
-D:\wamp8_4\www\faiorafragrance>echo "# perfume" >> README.md
-
-D:\wamp8_4\www\faiorafragrance>git init
-Initialized empty Git repository in D:/wamp8_4/www/faiorafragrance/.git/
+															D:\wamp8_4\www\faiorafragrance>echo "# perfume" >> README.md
+															D:\wamp8_4\www\faiorafragrance>echo "# perfume" >> README.md
+															D:\wamp8_4\www\faiorafragrance>git init
+															Initialized empty Git repository in D:/wamp8_4/www/faiorafragrance/.git/
 
 															D:\wamp8_4\www\faiorafragrance>git add README.md
 															D:\wamp8_4\www\faiorafragrance>git commit -m "first commit"
-																													D:\wamp8_4\www\faiorafragrance>git branch -M main
+															D:\wamp8_4\www\faiorafragrance>git branch -M main
 															D:\wamp8_4\www\faiorafragrance>git remote add origin https://github.com/faiorafragrance-ctrl/perfume.git
 															D:\wamp8_4\www\faiorafragrance>git push -u origin main
 												
@@ -40,21 +37,7 @@ Initialized empty Git repository in D:/wamp8_4/www/faiorafragrance/.git/
 
 															D:\wamp8_4\www\faiorafragrance>git add .
 															D:\wamp8_4\www\faiorafragrance>git commit -m "first commit2"
-															[main 0f5b71e] first commit2
-															 13 files changed, 855 insertions(+)
-															 create mode 100644 css/style.css
-															 create mode 100644 img/amber_red.png
-															 create mode 100644 img/deep_blue.png
-															 create mode 100644 img/footer_banner.png
-															 create mode 100644 img/im1.png
-															 create mode 100644 img/im2.PNG
-															 create mode 100644 img/im3.PNG
-															 create mode 100644 img/im4.PNG
-															 create mode 100644 img/logo.png
-															 create mode 100644 img/olive_green.png
-															 create mode 100644 img/wall1.png
-															 create mode 100644 index.html
-															 create mode 100644 js/style.js
+														
  
  
  
@@ -107,26 +90,21 @@ Accept cheyyuka
 								continue with github
 								mob : 9962140490
 								login with github https://github.com/faiorafragrance-ctrl
-								import git 
-								deploy 
+								create New+ project kodukkuga
+								select repository
+								import git path
+								Deploy 
+								continuew
 								
 								https://perfume-two-silk.vercel.app/
 
-								githubil file itta shesham 
-														D:\wamp8_4\www\vridhavan_dance>git add .
-														D:\wamp8_4\www\vridhavan_dance>git commit -m "websitedesign"
-														On branch main
-														nothing to commit, working tree clean
-														D:\wamp8_4\www\vridhavan_dance>git push -u origin main
-
-								create New+ project kodukkuga
-								select repository
-								import
-								Deploy 
-								continuew
+								githubil file itta shesham any update 
+														D:\wamp8_4\www\faiorafragrance>git add .
+														D:\wamp8_4\www\faiorafragrance>git commit -m "first commit2"
+														D:\wamp8_4\www\faiorafragrance>git push -u origin main
+											
 
 								if you check go to domain
 
 
-https://vercel.com/krishnakumar-cmyk/dance-fqle
-https://dance-fqle.vercel.app/
+https://perfume-two-silk.vercel.app/
