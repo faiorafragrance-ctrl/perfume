@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAIORA Fragrance</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="FAIORA Fragrance" />
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link active">Home</a></li>
+          <li><a href="#" class="nav-link">Our Fragrances</a></li>
+          <li><a href="#" class="nav-link">About Us</a></li>
+          <li><a href="#" class="nav-link">Collections</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Account">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="cart-badge">2</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="img/wall1.png" alt="FAIORA Fragrance" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <span class="hero-eyebrow">FAIORA FRAGRANCE</span>
+      <h1 class="hero-title">Scents that<br /><em>Define You</em></h1>
+      <p class="hero-desc">A premium collection of long-lasting,<br />refined fragrances for every occasion.</p>
+      <a href="#" class="btn btn-gold">
+        Explore Collection
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES BAR ===================== -->
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v6M9 11l3 3 3-3"/></svg>
+        </div>
+        <div class="feature-text">
+          <h4>Premium Quality</h4>
+          <p>Finest ingredients</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="feature-text">
+          <h4>Long Lasting</h4>
+          <p>All-day fragrance</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+        </div>
+        <div class="feature-text">
+          <h4>Elegant Packaging</h4>
+          <p>Perfect for gifting</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+        </div>
+        <div class="feature-text">
+          <h4>Trusted Brand</h4>
+          <p>Quality you can rely on</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COLLECTIONS ===================== -->
+  <section class="collections section">
+    <div class="container">
+      <div class="section-head">
+        <span class="line"></span>
+        <h2 class="section-title">EXPLORE OUR COLLECTIONS</h2>
+        <span class="line"></span>
+      </div>
+
+      <div class="collections-grid">
+        <div class="collection-card">
+          <img src="img/im1.png" alt="For Men" />
+          <div class="collection-body">
+            <h3>For Men</h3>
+            <p>Bold & Confident <span class="arrow">→</span></p>
+          </div>
+        </div>
+        <div class="collection-card">
+          <img src="img/im2.PNG" alt="For Women" />
+          <div class="collection-body">
+            <h3>For Women</h3>
+            <p>Elegant & Graceful <span class="arrow">→</span></p>
+          </div>
+        </div>
+        <div class="collection-card">
+          <img src="img/im3.PNG" alt="Unisex" />
+          <div class="collection-body">
+            <h3>Unisex</h3>
+            <p>Versatile & Timeless <span class="arrow">→</span></p>
+          </div>
+        </div>
+        <div class="collection-card">
+          <img src="img/im4.PNG" alt="Gift Sets" />
+          <div class="collection-body">
+            <h3>Gift Sets</h3>
+            <p>The Perfect Gift <span class="arrow">→</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED FRAGRANCES ===================== -->
+  <section class="featured section">
+    <div class="container">
+      <div class="section-head">
+        <span class="line"></span>
+        <h2 class="section-title">FEATURED FRAGRANCES</h2>
+        <span class="line"></span>
+      </div>
+
+      <div class="products-grid">
+        <article class="product-card">
+          <div class="product-img">
+            <img src="img/amber_red.png" alt="Oud Royal" />
+          </div>
+          <div class="product-info">
+            <p class="product-brand">FAIORA</p>
+            <h3 class="product-name">Oud Royal</h3>
+            <p class="product-tags">Rich · Woody · Long Lasting</p>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(128)</span>
+            </div>
+            <a href="#" class="product-link">Shop Now <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img">
+            <img src="img/deep_blue.png" alt="Citrus Elegance" />
+          </div>
+          <div class="product-info">
+            <p class="product-brand">FAIORA</p>
+            <h3 class="product-name">Citrus Elegance</h3>
+            <p class="product-tags">Fresh · Energetic · Modern</p>
+            <div class="rating">
+              <span class="stars">★★★★<span class="star-empty">★</span></span>
+              <span class="rating-count">(96)</span>
+            </div>
+            <a href="#" class="product-link">Shop Now <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img">
+            <img src="img/olive_green.png" alt="Noir Intense" />
+          </div>
+          <div class="product-info">
+            <p class="product-brand">FAIORA</p>
+            <h3 class="product-name">Noir Intense</h3>
+            <p class="product-tags">Deep · Masculine · Sophisticated</p>
+            <div class="rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">(142)</span>
+            </div>
+            <a href="#" class="product-link">Shop Now <span>→</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OUR STORY ===================== -->
+  <section class="story">
+    <div class="story-bg">
+      <img src="img/footer_banner.png" alt="" />
+      <div class="story-overlay"></div>
+    </div>
+    <div class="container story-inner">
+      <div class="story-content">
+        <h2 class="story-title">Our Story</h2>
+        <p>At FAIORA, we believe fragrance is more than a scent—
+        it's an expression of personality, mood, and style. Our
+        passion is to craft premium, long-lasting perfumes that
+        leave a lasting impression.</p>
+        <a href="#" class="btn btn-outline">
+          Learn More
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-col brand-col">
+        <img src="img/logo.png" alt="FAIORA" class="footer-logo" />
+        <p>Premium long-lasting fragrances crafted for every occasion.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.8c-.7.3-1.5.5-2.3.6.8-.5 1.5-1.3 1.8-2.2-.8.5-1.7.8-2.6 1-1.5-1.6-4-1.7-5.6-.2-1 .9-1.4 2.4-1.1 3.8C8.7 8.6 5.6 7 3.7 4.5c-1 1.8-.5 4.1 1.3 5.2-.6 0-1.2-.2-1.8-.5 0 1.9 1.3 3.6 3.3 4-.6.2-1.2.2-1.8.1.5 1.6 2 2.7 3.7 2.7-1.6 1.2-3.6 1.9-5.7 1.9-.4 0-.7 0-1.1-.1 2 1.3 4.4 2 7 2 8.4 0 13-7 13-13v-.6c.9-.6 1.6-1.4 2.2-2.3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Fragrances</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Care</h4>
+        <ul>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get In Touch</h4>
+        <ul class="contact-list">
+          <li><span>📍</span> 123 Fragrance Lane, Dubai</li>
+          <li><span>📞</span> +971 50 123 4567</li>
+          <li><span>✉️</span> info@faiora.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 FAIORA Fragrance. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/style.js"></script>
+</body>
+</html>
