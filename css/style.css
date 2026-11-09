@@ -512,17 +512,41 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   }
   .nav-list { flex-direction: column; gap: 18px; }
   .hero {
-    min-height: 72vh;
-  }
-  .hero-bg {
-    background: #0a0603;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
   }
   .hero-bg img {
     transform: none;
     object-fit: cover;
-    object-position: 72% center;
+    object-position: 60% center;
   }
-  .hero-content { padding: 40px 24px; }
+  .hero .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .hero-content {
+    position: relative;
+    max-width: 78%;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    padding: 28px 22px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  }
+  .hero-title {
+    color: #1a1410;
+    font-size: clamp(34px, 9vw, 52px);
+    margin-bottom: 14px;
+  }
+  .hero-desc {
+    color: #5a5349;
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+  .hero-eyebrow { margin-bottom: 10px; }
+  .btn-gold { padding: 12px 26px; font-size: 14px; }
   .features-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
   .feature { border-right: none; padding: 8px 0; }
   .section-head .line { width: 40px; }
