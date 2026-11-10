@@ -1,3 +1,19 @@
+// ===== Random hero wallpaper =====
+(function randomHeroWallpaper() {
+  const heroOverlay = document.querySelector('.hero-overlay');
+  if (!heroOverlay) return;
+
+  const wallpapers = [
+    'img/wall1.png',
+    'img/wall2.png'
+  ];
+  const chosen = wallpapers[Math.floor(Math.random() * wallpapers.length)];
+
+  heroOverlay.style.backgroundImage =
+    'linear-gradient(90deg, rgba(10,6,3,.85) 0%, rgba(10,6,3,.5) 45%, rgba(10,6,3,.15) 100%),' +
+    ' url("' + chosen + '")';
+})();
+
 // ===== Header scroll effect =====
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
