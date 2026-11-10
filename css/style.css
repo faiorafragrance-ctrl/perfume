@@ -38,7 +38,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: rgba(15, 10, 6, 0.85);
+  background: rgb(15 10 6);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   transition: background .3s ease, padding .3s ease;
