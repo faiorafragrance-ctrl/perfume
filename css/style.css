@@ -125,17 +125,26 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   z-index: -2;
 }
 .hero-bg img { display: none; }
+.hero-slide {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+.hero-slide.active { opacity: 1; }
 .hero-overlay {
   position: absolute;
   top: 80px;
   right: 0;
   bottom: 0;
   left: 0;
-  background-image:
-    linear-gradient(90deg, rgba(10,6,3,.85) 0%, rgba(10,6,3,.5) 45%, rgba(10,6,3,.15) 100%),
-    url('../img/wall1.png');
-  background-size: cover;
-  background-position: center top;
+  background-image: linear-gradient(90deg, rgba(10,6,3,.85) 0%, rgba(10,6,3,.5) 45%, rgba(10,6,3,.15) 100%);
   background-repeat: no-repeat;
 }
 .hero .container {
@@ -520,6 +529,9 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   }
   .hero-overlay {
     background-size: cover;
+    background-position: 68% center;
+  }
+  .hero-slide {
     background-position: 68% center;
   }
   .hero .container {

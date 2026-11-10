@@ -1,17 +1,16 @@
-// ===== Random hero wallpaper =====
-(function randomHeroWallpaper() {
-  const heroOverlay = document.querySelector('.hero-overlay');
-  if (!heroOverlay) return;
+// ===== Hero wallpaper slider =====
+(function heroWallpaperSlider() {
+  const slides = document.querySelectorAll('.hero-slide');
+  if (slides.length <= 1) return;
 
-  const wallpapers = [
-    'img/wall1.png',
-    'img/wall2.png'
-  ];
-  const chosen = wallpapers[Math.floor(Math.random() * wallpapers.length)];
+  let current = 0;
+  const INTERVAL = 5000;
 
-  heroOverlay.style.backgroundImage =
-    'linear-gradient(90deg, rgba(10,6,3,.85) 0%, rgba(10,6,3,.5) 45%, rgba(10,6,3,.15) 100%),' +
-    ' url("' + chosen + '")';
+  setInterval(() => {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }, INTERVAL);
 })();
 
 // ===== Header scroll effect =====
